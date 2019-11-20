@@ -1,0 +1,49 @@
+{
+  "name": "custom-semanticui-react",
+  "version": "1.0.0",
+  "description": "Semantic UI, React, MiniCssExtractPlugin, LESS, Webpack 4",
+  "main": "app.js",
+  "scripts": {
+    "start": "webpack-dev-server --open --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kudakwashegore/custom-semanticui-react.git"
+  },
+  "keywords": [
+    "Semantic",
+    "UI",
+    "React",
+    "MiniCssExtractPlugin",
+    "LESS",
+    "Webpack",
+    "4"
+  ],
+  "author": "Kudakwashe Gore",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/kudakwashegore/custom-semanticui-react/issues"
+  },
+  "dependencies": {
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "semantic-ui-react": "0.88.1"
+  },
+  "homepage": "https://github.com/kudakwashegore/custom-semanticui-react#readme",
+  "devDependencies": {
+    "@babel/core": "7.7.2",
+    "@babel/preset-env": "7.7.1",
+    "@babel/preset-react": "7.7.0",
+    "babel-loader": "8.0.6",
+    "css-loader": "3.2.0",
+    "html-webpack-plugin": "3.2.0",
+    "less": "2.7.3",
+    "less-loader": "5.0.0",
+    "mini-css-extract-plugin": "0.8.0",
+    "semantic-ui-less": "2.4.1",
+    "url-loader": "2.2.0",
+    "webpack": "4.41.2",
+    "webpack-cli": "3.3.10",
+    "webpack-dev-server": "3.9.0"
+  }
+}
